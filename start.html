@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione HTML</title>
+</head>
+<body>
+
+    <form action="" method="GET">
+        
+        <!-- DISABLED BUTTON -->
+        <div>
+            <label for="scam">FREE CA$H CLICK HERE!!! --></label>
+            <input type="button" id="scam" name="scam" value="GET RICH" disabled />
+        </div>
+
+        <!-- NUMERIC INPUT -->
+
+        <div>
+            <label for="money">Money</label>
+            <input type="number" id="money" name="money" min="0" max="100" step="2" value="0" autofocus />
+        </div>
+        
+        <!-- CHECKBOX -->
+
+        <div>
+            <label for="vibe">Vibe check</label>
+            <input type="checkbox" name="vibe" id="vibe" checked />
+        </div>
+
+        <!-- DATE INPUT -->
+
+        <div>
+            <label for="burnout">Schedule your next burnout:</label>
+            <input type="date" name="burnout" id="burnout" min="2022-03-30" max="2030-01-01" required />
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
